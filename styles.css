@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color-nutmeg: hsl(14, 45%, 36%);
+    --color-Dark-Raspberry: hsl(332, 51%, 32%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-Rose-White: hsl(330, 100%, 98%);
+    --color-Eggshell: hsl(30, 54%, 90%);
+    --color-LightGrey: hsl(30, 18%, 87%);
+    --color-Wenge-Brown: hsl(30, 10%, 34%);
+    --color-Dark-Charcoal: hsl(24, 5%, 18%);
+    -font-family-Young-Serif: 'Young Serif', serif;
+    --font-famuly-Outfit: "Outfit", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
