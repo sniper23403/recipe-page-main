@@ -9,8 +9,8 @@
     --color-LightGrey: hsl(30, 18%, 87%);
     --color-Wenge-Brown: hsl(30, 10%, 34%);
     --color-Dark-Charcoal: hsl(24, 5%, 18%);
-    -font-family-Young-Serif: 'Young Serif', serif;
-    --font-famuly-Outfit: "Outfit", sans-serif;
+    --font-family-Young-Serif: 'Young Serif', serif;
+    --font-family-Outfit: "Outfit", sans-serif;
 }
 
 * {
@@ -19,3 +19,123 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: var(--color-Eggshell);
+    font-family: var(--font-family-Outfit);
+}
+
+#container {
+    width: 550px;
+    background-color: var(--color-white);
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: var(--font-family-Young-Serif);
+    margin: 10px 0;
+    color: var(--color-Dark-Charcoal);
+}
+p{
+    font-family: var(--font-family-Outfit);
+    font-weight: 400;
+    font-size: small;
+    color: var(--color-Wenge-Brown);
+    margin-bottom: 10px;
+}
+.recipe-details {
+    background-color: var(--color-Rose-White);
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin: 30px 0;
+
+}
+.recipe-details li {
+    padding-left: 10px;
+    margin: 10px 20px;
+    color: var(--color-Wenge-Brown);
+
+}
+
+.recipe-details h3{
+    color: var(--color-Dark-Raspberry);
+    font-family: var(--font-family-Outfit);
+}
+
+span {
+    color: var(--color-Dark-Charcoal);
+    font-weight: 700;
+    font-family: var(--font-family-Outfit);
+}
+
+ h2{
+    font-family: var(--font-family-Young-Serif);
+    color: var(--color-nutmeg);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.Ingredients-details li {
+    margin: 10px 20px;
+    font-family: var(--font-family-Outfit);
+    font-weight: 400;
+    font-size: small;
+    color: var(--color-Wenge-Brown);
+    padding-left: 10px;
+}
+.instructions-details li {
+    margin: 10px 0 10px 20px;
+    font-family: var(--font-family-Outfit);
+    font-weight: 400;
+    font-size: small;
+    color: var(--color-Wenge-Brown);
+    padding-left: 10px;
+}
+.instructions-details li::marker {
+    color: var(--color-nutmeg);
+    font-weight: 600;
+    font-family: var(--font-family-Outfit);
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 10px; 
+    width: 100%;
+    margin: 10px 0;
+    color: var(--color-Wenge-Brown);
+    font-size: small;
+    font-weight: 700;
+} 
+tr {
+    border-bottom: 1px solid var(--color-LightGrey);
+}
+.values {
+    color: var(--color-nutmeg);
+}
+td {
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+        border-radius: 0;
+        padding: 20px;
+    }
+    body {
+        margin: auto;
+    }
+    img {
+        border-radius: 0;
+        object-fit: contain;
+    }
+}
