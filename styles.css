@@ -125,17 +125,23 @@ td {
     padding: 10px 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 560px) {
     #container {
         width: 100%;
         border-radius: 0;
-        padding: 20px;
+        padding: 0px;
     }
     body {
         margin: auto;
     }
     img {
         border-radius: 0;
-        object-fit: contain;
+    }
+    .recipe-details ,.Ingredients-details, .instructions-details, .Nutrition-details, h1 , p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .Nutrition-details p {
+        margin-left: 0;
     }
 }
