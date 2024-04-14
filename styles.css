@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--color-Eggshell);
+    font-weight: 400;
     font-family: var(--font-family-Outfit);
 }
 
@@ -44,7 +45,7 @@ img {
 
 h1 {
     font-family: var(--font-family-Young-Serif);
-    margin: 40px 0 27px 0 ;
+    margin: 32px 0 14px 0 ;
     font-size: 39px;
     font-weight: 400;
     color: var(--color-Dark-Charcoal);
@@ -57,14 +58,14 @@ p{
 }
 .recipe-details {
     background-color: var(--color-Rose-White);
-    padding: 30px;
+    padding: 28px 27px;
     border-radius: 15px;
     margin: 30px 0;
 
 }
 .recipe-details li {
-    padding-left: 27px;
-    margin: 15px 18px;
+    padding-left: 20px;
+    margin: 11px 18px;
     color: var(--color-Wenge-Brown);
 }
 .recipe-details > li::marker {
@@ -77,8 +78,8 @@ p{
 }
 
 span {
-    color: var(--color-Dark-Charcoal);
-    font-weight: 800;
+    color: var(--color-Wenge-Brown);
+    font-weight: 700;
     font-family: var(--font-family-Outfit);
 }
 
@@ -107,7 +108,6 @@ hr {
 .Ingredients-details li {
     margin: 16px 20px;
     font-family: var(--font-family-Outfit);
-    font-weight: 500;
     color: var(--color-Wenge-Brown);
     padding-left: 19px;
 }
