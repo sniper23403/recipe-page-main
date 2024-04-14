@@ -85,6 +85,11 @@ span {
     margin-bottom: 10px;
     font-weight: 400;
 }
+hr {
+    border: 0.5px solid var(--color-Wenge-Brown);
+    opacity: 0.1;
+    margin: 15px 0;
+}
 .Ingredients-details li {
     margin: 10px 20px;
     font-family: var(--font-family-Outfit);
@@ -137,9 +142,9 @@ td {
     img {
         border-radius: 0;
     }
-    .recipe-details ,.Ingredients-details, .instructions-details, .Nutrition-details, h1 , p {
-        margin-right: 10px;
-        margin-left: 10px;
+    .recipe-details ,.Ingredients-details, .instructions-details, .Nutrition-details, h1 , p, hr {
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .Nutrition-details p {
         margin-left: 0;
