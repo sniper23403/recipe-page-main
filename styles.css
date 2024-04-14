@@ -21,16 +21,16 @@
 
 body {
     min-height: 1955px;
-    margin: 50px auto;
     display: flex;
     justify-content: center;
-    align-items: center;   
     background-color: var(--color-Eggshell);
     font-family: var(--font-family-Outfit);
 }
 
 #container {
-    width: 736px;
+    max-width: 736px;
+    margin-top: 123px;
+    height: fit-content;
     background-color: var(--color-white);
     padding: 40px;
     border-radius: 22px;
@@ -108,10 +108,8 @@ hr {
     margin: 16px 20px;
     font-family: var(--font-family-Outfit);
     font-weight: 500;
-    font-size: 0.83rem;
-    word-spacing: 3px;
     color: var(--color-Wenge-Brown);
-    padding-left: 22px;
+    padding-left: 19px;
 }
 .Ingredients-details > li::marker{
     color: var(--color-nutmeg);
